@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #07222f;
+}
+.containerh2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerh2:hover .glass{
+    transform: rotate(0deg);
+    margin: 0 20px;
+}
+.containerh2 .glass{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    background: linear-gradient(#fff2, transparent);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 0 -45px;
+    transform: rotate(calc(var(--r) * 1deg));
+}
+.containerh2 .glass::before{
+    content: attr(data-text );
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* hashira 2 */
+.containerh3{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerh3:hover .glass3{
+    transform: rotate(0deg);
+    margin: 0 20px;
+}
+.containerh3 .glass3{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    background: linear-gradient(#fff2, transparent);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 0 -45px;
+    transform: rotate(calc(var(--r) * 1deg));
+}
+.containerh3 .glass3::before{
+    content: attr(data-text );
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+/* hashira 3*/
+.containerh4{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerh4:hover .glass4{
+    transform: rotate(0deg);
+    margin: 0 20px;
+}
+.containerh4 .glass4{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    background: linear-gradient(#fff2, transparent);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin: 0 -45px;
+    transform: rotate(calc(var(--r) * 1deg));
+}
+.containerh4 .glass4::before{
+    content: attr(data-text );
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
